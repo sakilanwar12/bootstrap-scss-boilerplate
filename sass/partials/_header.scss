@@ -102,19 +102,19 @@
       }
       &.dropdown {
         > a {
-          //padding-right: 30px;
+          padding-right: 30px;
 
-          //&:before {
-          //  visibility: visible;
-          //}
+          &:before {
+           visibility: visible;
+          }
         }
         .dropdown {
           > a {
-            //&:before {
-            //  visibility: visible;
-            //  right: 15px;
-            //  transform: rotate(-45deg);
-            //}
+            &:before {
+             visibility: visible;
+             right: 15px;
+             transform: rotate(-45deg);
+            }
           }
         }
       }

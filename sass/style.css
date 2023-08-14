@@ -8,7 +8,7 @@
 /* Table of contents
 =========================
 
-1.Theme Default CSS
+1.Nav Menu CSS
 
 ===========================*/
 /* Theme Default CSS */
@@ -2801,6 +2801,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-color: rgb(255, 103, 49);
   bottom: 40px;
   left: 20px;
+}
+.main-menu ul li.dropdown > a {
+  padding-right: 30px;
+}
+.main-menu ul li.dropdown > a:before {
+  visibility: visible;
+}
+.main-menu ul li.dropdown .dropdown > a:before {
+  visibility: visible;
+  right: 15px;
+  transform: rotate(-45deg);
 }
 .main-menu ul li ul.submenu li.active > a {
   position: relative;
